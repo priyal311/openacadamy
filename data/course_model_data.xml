@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="course.model" id="course_model_demo_1">
+    <field name="title">Complete Data Science Bootcamp</field>
+    <field name="description">Master the theory, practice,and math behind Data Science,Machine Learning,Deep Learning,NLP with end to end projects</field>
+</record>
+
+</odoo>

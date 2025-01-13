@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+   <menuitem id="course_menu_root"
+          name="Open Academy"
+          sequence="10"/>
+
+   <menuitem id="course_menu_list"
+         name="course"
+         parent="course_menu_root"
+         action="action_list_course"
+         sequence="20"/>
+
+    <menuitem id="session_menu_list"
+         name="session"
+         parent="course_menu_root"
+         action="action_list_session"
+         sequence="30"/>
+
+</odoo>
