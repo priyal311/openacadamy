@@ -7,3 +7,4 @@ class CourseModel(models.Model):
 
     title = fields.Text(string='course Name')
     description = fields.Text(string='course details')
+    title = fields.Text(string='course Name')
